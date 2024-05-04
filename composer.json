@@ -1,5 +1,6 @@
 {
     "name": "irving/memorama",
+    "description": "Pruebas automatizadas",
     "autoload": {
         "psr-4": {
             "Irving\\Memorama\\": "core/php/"
