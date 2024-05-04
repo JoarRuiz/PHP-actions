@@ -1,0 +1,11 @@
+{
+    "name": "irving/memorama",
+    "autoload": {
+        "psr-4": {
+            "Irving\\Memorama\\": "core/php/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "11"
+    }
+}
