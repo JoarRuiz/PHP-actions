@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
-include('core/php/createUserHelper.php');
-include('core/php/DataBaseManager.php');
+include_once('core/php/createUserHelper.php');
+include_once('core/php/DataBaseManager.php');
 
 class createUserHelperTest extends PHPUnit\Framework\TestCase {
   //Prueba negativa
