@@ -19,7 +19,7 @@ if (!defined('DB')) {
     define('DB', 'memorama');
 }
 
-class DataBaseManager {
+class dataBaseManager {
 
     private $mysqli;
     private static $_instance = null;
