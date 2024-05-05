@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
-include('core/php/deleteMateriaHelper.php');
-include('core/php/DataBaseManager.php');
+include_once('core/php/deleteMateriaHelper.php');
+include_once('core/php/DataBaseManager.php');
 class deleteMateriaHelperTest extends PHPUnit\Framework\TestCase {
   //Prueba negativa
   public function testDeleteMateriaFailure()
