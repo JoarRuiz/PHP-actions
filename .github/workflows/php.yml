@@ -18,11 +18,11 @@ jobs:
           php-version: '7.4'
 
       - name: Install dependencies
-        run: composer update
+        run: composer install --no-dev --no-interaction --no-progress --no-suggest
         
 
       - name: Run tests
-        run: ./vendor/bin/phpunit --verbose tests
+        run: /vendor/bin/phpunit tests
 
       - name: Check coding standards
         run: composer ecs
