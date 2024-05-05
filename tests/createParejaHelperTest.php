@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
-include('core/php/createParejaHelper.php');
-include('core/php/DataBaseManager.php');
+include_once('core/php/createParejaHelper.php');
+include_once('core/php/DataBaseManager.php');
 class createParejaHelperTest extends PHPUnit\Framework\TestCase {
     // Prueba negativa
     public function testSetParejaFailure() {
