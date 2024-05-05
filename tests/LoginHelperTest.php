@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-include('core/php/LoginHelper.php');
-include('core/php/DataBaseManager.php');
-include('core/php/Session.php');
+include_once('core/php/LoginHelper.php');
+include_once('core/php/DataBaseManager.php');
+include_once('core/php/Session.php');
 
 class LoginHelperTest extends PHPUnit\Framework\TestCase {
     protected $lh;
