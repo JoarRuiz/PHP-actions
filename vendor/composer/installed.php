@@ -3,7 +3,7 @@
         'name' => 'irving/memorama',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'adf6cc20be3745869bf5ee2170952a5994865589',
+        'reference' => '3a74c16bc77a5df2e8b4c1af91ed80997b5b0085',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'irving/memorama' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'adf6cc20be3745869bf5ee2170952a5994865589',
+            'reference' => '3a74c16bc77a5df2e8b4c1af91ed80997b5b0085',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
