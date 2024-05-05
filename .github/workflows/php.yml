@@ -46,25 +46,6 @@ jobs:
       - name: Set execute permissions for phpunit
         run: chmod +x vendor/bin/phpunit
 
-
-      - name: Run PHPUnit setPuntajeHelperTest.php
-        run: phpunit --configuration phpunit.xml tests/setPuntajeHelperTest.php
-
-      - name: Run PHPUnit LoginHelperTest.php
-        run: phpunit --configuration phpunit.xml tests/LoginHelperTest.php
-
-      - name: Run PHPUnit getMateriasComTest.php
-        run: phpunit --configuration phpunit.xml tests/getMateriasComTest.php
-
-      - name: Run PHPUnit GreeterTest.php
-        run: phpunit --configuration phpunit.xml tests/GreeterTest.php
-
-      - name: Run PHPUnit tests for all files in tests folder
-        run: phpunit tests
-
       - name: Run PHPUnit tests
-        run: vendor/bin/phpunit --configuration phpunit.xml tests --testdox --coverage-text
-
-      - name: Run PHPUnit tests and generate testdox report
-        run: vendor/bin/phpunit --testdox
+        run: vendor/bin/phpunit --configuration phpunit.xml --testdox --coverage-text
 
