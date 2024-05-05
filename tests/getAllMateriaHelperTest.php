@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
-include('core/php/getAllMateriaHelper.php');
-include('core/php/DataBaseManager.php');
+include_once('core/php/getAllMateriaHelper.php');
+include_once('core/php/DataBaseManager.php');
 
 class getAllMateriaHelperTest extends PHPUnit\Framework\TestCase{
     //Prueba negativa
