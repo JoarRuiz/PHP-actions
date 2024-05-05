@@ -43,5 +43,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Run PHPUnit tests
+      - name: Run PHPUnit tests 1
         run: phpunit --configuration phpunit.xml tests/setPuntajeHelperTest.php
+
+      - name: Run PHPUnit tests for LoginHelperTest.php
+        run: phpunit --configuration phpunit.xml tests/LoginHelperTest.php
+
+      - name: Run PHPUnit tests for all files in tests folder
+        run: phpunit tests
