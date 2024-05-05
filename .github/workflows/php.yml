@@ -22,7 +22,7 @@ jobs:
         
 
       - name: Run tests
-        run: /vendor/bin/phpunit tests
+        run: ./vendor/bin/phpunit tests
 
       - name: Check coding standards
         run: composer ecs
