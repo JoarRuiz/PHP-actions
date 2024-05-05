@@ -15,5 +15,10 @@
     },
     "scripts": {
         "test": "phpunit tests"
+    },
+    "autoload": {
+        "classmap": [
+            "core/php/DataBaseManager.php"
+        ]
     }
 }
