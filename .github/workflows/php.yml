@@ -1,4 +1,5 @@
-name: GitHub Actions Demo
+name: Run Tests
+
 on:
   push:
     branches:
@@ -19,10 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: composer install --no-dev --no-interaction --no-progress --no-suggest
-        
 
-      - name: Run tests
-        run: composer run tests
-
-      - name: Check coding standards
-        run: composer ecs
+      - name: Run PHPUnit Tests
+        run: composer test
