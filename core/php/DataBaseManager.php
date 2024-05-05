@@ -1,17 +1,11 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Andre
- * Date: 07/02/2016
- * Time: 07:55 PM
- */
-define('SERVER', 'localhost');
-define('USERNAME', 'root');
-define('PASSWORD', '');
-define('DB', 'memorama');
-
 class DataBaseManager {
+
+    const SERVER = 'localhost';
+    const USERNAME = 'root';
+    const PASSWORD = '';
+    const DB = 'memorama';
 
     private $mysqli;
     private static $_instance = null;
@@ -21,7 +15,7 @@ class DataBaseManager {
      * @param $mysqli
      */
     private function __construct() {
-        $this->mysqli = new mysqli(SERVER, USERNAME, PASSWORD, DB);
+        $this->mysqli = new mysqli(self::SERVER, self::USERNAME, self::PASSWORD, self::DB);
         if ($this->mysqli->connect_errno) {
             echo "Fallo al conectar a MySQL: (" . $this->mysqli->connect_errno . ") " . $this->mysqli->connect_error;
         }
