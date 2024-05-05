@@ -18,14 +18,10 @@ jobs:
           php-version: '7.4'
 
       - name: Install dependencies
-        run:  composer install --no-dev --no-interaction --no-progress --no-suggest
+        run: composer install --no-dev --no-interaction --no-progress --no-suggest
 
-      - name: Run test2
-        run: ./vendor/bin/phpunit --verbose tests
-        
       - name: Run tests
-        run:  phpunit --configuration tests/createParejaHelperTest.php
+        run: ./vendor/bin/phpunit --verbose tests
 
       - name: Check coding standards
         run: composer ecs
-
