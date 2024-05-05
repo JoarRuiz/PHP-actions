@@ -1,5 +1,7 @@
 <?php
 
+namespace MyApp\Core;
+
 class DataBaseManager {
 
     const SERVER = 'localhost';
