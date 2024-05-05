@@ -1,9 +1,7 @@
 <phpunit>
     <testsuites>
-        <testsuite name="My Test Suite">
+        <testsuite name="All Tests">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
-
-    <!-- Configuraciones adicionales, si las necesitas -->
 </phpunit>
