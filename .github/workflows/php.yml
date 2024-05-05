@@ -19,8 +19,9 @@ jobs:
           php-version: '7.4'
 
       - name: Install dependencies
-        run: composer install --no-dev --no-interaction --no-progress --no-suggest ln -s $(pwd)/vendor/bin/phpunit /usr/local/bin/phpunit
-
-
+        run: composer install --no-dev --no-interaction --no-progress --no-suggest 
+      - name: Create symbolic link for PHPUnit
+        run: ln -s $(pwd)/vendor/bin/phpunit /usr/local/bin/phpunit
+    
       - name: Run PHPUnit Tests
         run: composer test
