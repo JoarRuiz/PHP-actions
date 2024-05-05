@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
-include('core/php/Greeter.php');
+include_once('core/php/Greeter.php');
 
 final class GreeterTest extends TestCase
 {
