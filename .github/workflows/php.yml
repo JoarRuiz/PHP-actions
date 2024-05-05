@@ -51,3 +51,6 @@ jobs:
 
       - name: Run PHPUnit tests for all files in tests folder
         run: phpunit tests
+
+      - name: Run PHPUnit tests for all files in tests folder
+        run: phpunit --configuration phpunit.xml tests
