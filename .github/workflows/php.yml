@@ -36,4 +36,4 @@ jobs:
           command: install
 
       - name: Run PHPUnit tests
-        run: phpunit tests
+        run: phpunit --configuration phpunit.xml tests
