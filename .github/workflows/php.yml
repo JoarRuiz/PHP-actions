@@ -22,7 +22,7 @@ jobs:
         
 
       - name: Run tests
-        run: composer run test
+        run: composer run tests
 
       - name: Check coding standards
         run: composer ecs
