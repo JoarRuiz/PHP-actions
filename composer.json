@@ -1,12 +1,11 @@
 {
     "name": "irving/memorama",
-    "description": "Pruebas automatizadas",
     "autoload": {
         "psr-4": {
             "Irving\\Memorama\\": "core/php/"
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^11.0"
+        "phpunit/phpunit": "11"
     }
 }
