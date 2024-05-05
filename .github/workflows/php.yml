@@ -21,5 +21,5 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --no-dev --no-interaction --no-progress --no-suggest
 
-      - name: Run PHPUnit Tests
-        run: ./vendor/bin/phpunit tests
+      - name: Run PHPUnit Tests 
+        run: ./vendor/bin/phpunit tests  # Asegúrate de que la ruta a las pruebas sea correcta
