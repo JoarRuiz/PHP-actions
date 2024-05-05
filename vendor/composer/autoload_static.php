@@ -20,6 +20,10 @@ class ComposerStaticInit2b7034f1bdb7060993d0530b4ccc46cb
         array (
             'PhpParser\\' => 10,
         ),
+        'I' => 
+        array (
+            'Irving\\Memorama\\' => 16,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -35,6 +39,10 @@ class ComposerStaticInit2b7034f1bdb7060993d0530b4ccc46cb
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Irving\\Memorama\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/core/php',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

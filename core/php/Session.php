@@ -7,7 +7,7 @@
  * Time: 10:05 PM
  */
 
-class session {
+class SessionHandler {
     function __construct() {
         session_start ();
     }
