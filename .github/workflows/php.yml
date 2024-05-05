@@ -21,7 +21,7 @@ jobs:
         run:  composer install --no-dev --no-interaction --no-progress --no-suggest
 
       - name: Run tests
-        run: vendor/bin/phpunit --configuration tests/createParejaHelperTest.php
+        run:  phpunit --configuration tests/createParejaHelperTest.php
 
       - name: Check coding standards
         run: composer ecs
