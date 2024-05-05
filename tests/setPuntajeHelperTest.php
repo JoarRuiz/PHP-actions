@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
-include('core/php/setPuntajeHelper.php');
-include('core/php/DataBaseManager.php');
+include_once('core/php/setPuntajeHelper.php');
+include_once('core/php/DataBaseManager.php');
 class setPuntajeHelperTest extends PHPUnit\Framework\TestCase {
     //Prueba mala
     public function testSetPuntajeFailure() {
