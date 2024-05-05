@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
-include('core/php/MateriaManagerComplet.php');
-include('core/php/DataBaseManager.php');
+include_once('core/php/MateriaManagerComplet.php');
+include_once('core/php/DataBaseManager.php');
 
 class getMateriasComTest extends PHPUnit\Framework\TestCase{
   //Preuba positiva
