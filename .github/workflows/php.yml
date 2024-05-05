@@ -18,7 +18,8 @@ jobs:
           php-version: '7.4'
 
       - name: Install dependencies
-        run: composer install --no-dev --no-interaction --no-progress --no-suggest
+        run: composer install update
+        
 
       - name: Run tests
         run: ./vendor/bin/phpunit --verbose tests
