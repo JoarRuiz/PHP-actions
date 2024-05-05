@@ -53,6 +53,12 @@ jobs:
       - name: Run PHPUnit tests for LoginHelperTest.php
         run: phpunit --configuration phpunit.xml tests/LoginHelperTest.php
 
+      - name: Run PHPUnit tests 1
+        run: phpunit --configuration phpunit.xml tests/getMateriasComTest.php
+
+      - name: Run PHPUnit tests for LoginHelperTest.php
+        run: phpunit --configuration phpunit.xml tests/GreeterTest.php
+
       - name: Run PHPUnit tests for all files in tests folder
         run: phpunit tests
 
