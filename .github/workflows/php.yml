@@ -9,6 +9,9 @@ jobs:
   composer_install:
     runs-on: ubuntu-latest
 
+    env:
+      COMPOSER_VERSION: 1
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
